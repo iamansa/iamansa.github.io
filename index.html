@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -332,12 +334,34 @@
                             <!--a href="#"><i class="ti-heart text-danger"></i> 234</a>
                             <a href="#"><i class="ti-comment"></i> 123</a-->
                         </p>
-                        <p>This is a story of three girls from OWIS (One World International School) who imagine to be super heros and eventually help those around them.</p>
+                        <p>This is a story of three girls from OWIS (One World International School) who imagine to be super heroes and eventually help those around them.</p>
 
-                        <a href="#" class="blog-card-link">Read <i class="ti-angle-double-right"></i></a>
+                        <!--a href="#" class="blog-card-link">Read <i class="ti-angle-double-right"></i></a-->
+                    <!-- Link to open the modal -->
+<a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal">Read</a>
+
+<!-- Modal -->
+<div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="pdfModalLabel">PDF Viewer</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="height: 80vh;">
+        <iframe src="assets/superhelpers/superhelpers1" width="100%" height="100%" style="border: none;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+                    
                 </div>
             </div><!-- end of blog wrapper -->
 
+
+
+            
             <!-- blog-wrapper -->
             <div class="blog-card">
                 <div class="blog-card-header">
@@ -416,6 +440,8 @@
 
     <!-- Meyawo js -->
     <script src="assets/js/meyawo.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
