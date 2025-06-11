@@ -1636,12 +1636,13 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				border: 0;
+				border: 3px solid #000;
 				height: 100%;
 				left: 0;
 				position: absolute;
 				top: 0;
 				width: 100%;
+				filter: blur(4px); /* ✅ makes the image blurry */
 			}
 
 			#main .thumb > h2 {
