@@ -1634,7 +1634,7 @@ input, select, textarea {
 			#main .thumb > .image {
 				background-size: 200%; /* zoom in */
     				background-position: center top; /* focus on top center */
-				/*
+				
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
 				background-repeat: no-repeat;
@@ -1645,7 +1645,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
-				filter: blur(4px);   */
+				/*filter: blur(4px);   */
 			}
 
 			#main .thumb > h2 {
